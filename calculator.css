@@ -1,0 +1,34 @@
+.primary-grid{
+    display: grid;
+    grid-template-columns: 15px 15px 15px 15px;
+    column-gap: 16px;
+    row-gap: 10px;
+    margin-top: 5px;
+}
+
+.button-input{
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #333333;
+    cursor: pointer;
+    border: solid black;
+}
+
+.input-box{
+    width : 110px;
+    color: white;
+    background-color: black;
+    border: solid black;
+    outline: none;
+    caret-color: white;
+    font-size: 25px;
+}
